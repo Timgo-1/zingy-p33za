@@ -1,0 +1,11 @@
+.checkout-choose-payment h2 {
+  color: var(--green);
+  text-align: center;
+  padding-top: 25px;
+}
+
+.checkout-choose-payment label {
+  color: var(--light-gray);
+  padding: 0px 25px 0px 25px;
+}
+
