@@ -1115,7 +1115,9 @@ hr {
   top: 100%;
   right: 0;
   z-index: 99;
-  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   background: linear-gradient(to bottom right,olive,teal, midnightblue);
   padding-top: 2rem;
   padding-bottom: 2rem;
