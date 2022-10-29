@@ -32,10 +32,12 @@
 
 /* Contact Details */
 .contact-us-img {
-  background-image: url("../../assets/images/contact.jpg");
+  background-image: url("../../assets/images/contact.png");
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 15rem;
+  height: 100%;
   width: 100%;
   border-radius: 10px;
 }
