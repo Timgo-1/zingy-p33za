@@ -1065,7 +1065,7 @@ hr {
     color: var(--pizza-red);
   }
   .logo:hover {
-    transform: rotate(15deg);
+    transform: rotate(-20deg);
   }
 
   .header-btns .btn-link:last-child:hover {
