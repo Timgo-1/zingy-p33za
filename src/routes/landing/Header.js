@@ -1,10 +1,10 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
+import nav_icon from "../../assets/images/navbar.png";
 import { NavLink } from "react-router-dom";
 import LoginModal from "../../components/LoginModal";
 import Cart from "../../assets/images/cart-icon.png";
 import SuccessMsg from "../../components/SuccessMsg";
-import { Divide as Hamburger } from 'hamburger-react';
 
 export default class Header extends React.Component {
   HideModal() {
@@ -23,6 +23,7 @@ export default class Header extends React.Component {
     const hiddenMenu = document.querySelector(".navigation-menu");
     hiddenMenu.classList.remove("active");
   }
+
   render() {
     const { productsQuantity, ResetLocation } = this.props;
     return (
@@ -170,14 +171,17 @@ export default class Header extends React.Component {
               </div>
             </li>
           </ul>
-          <div className="burger-bars"
-             onClick={this.ShowHiddenMenu}
-          >
-            <Hamburger />
-          </div>
+          <img
+            className="burger-bars"
+            src={nav_icon}
+            alt=""
+            onClick={this.ShowHiddenMenu}
+          ></img>
         </nav>
         <SuccessMsg />
       </header>
     );
   }
 }
+
+
