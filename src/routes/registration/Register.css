@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  background-color: var(--light-black);
+  background: linear-gradient(to top right, indigo 15%, darkslateblue 50%, teal);
 }
 
 .register-main h1 {
@@ -67,7 +67,7 @@
 }
 
 .register-main input {
-  border: 1px solid #fac56425;
+  border: 1px solid rgba(255, 182, 193, 0.466);
   background-color: transparent;
   padding: 2rem;
   border-radius: 10px;
@@ -134,7 +134,7 @@ select {
   letter-spacing: 1px;
   width: 100%;
   cursor: pointer;
-  border: 1px solid #fac56425;
+  border: 1px solid #f7e2ba60;
   padding: 0.7rem;
   border-radius: 10px;
 }
