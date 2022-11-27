@@ -7,7 +7,7 @@
 New major projects coming soon.
 
 ## Introduction
- This is a code repository for Zingy-P33za Landing Page. It entails building a Modern UI/UX Pizzeria/Drinks Store Landing Page Website utilising the the underlisted processes:
+ This is a code repository for Zingy-P33za Landing Page. It entails building a Modern UI/UX Pizzeria/Drinks Store Landing Page Website utilising the underlisted processes:
 
 - React file and folder structure.
 - React-Alice-Carousel.
